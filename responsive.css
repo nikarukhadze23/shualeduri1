@@ -1,0 +1,304 @@
+@media (width > 768px){
+    .container{
+        overflow: hidden;
+        width: 768px;
+    }
+
+    .gridsfather{
+        grid-template-columns:auto auto ;
+    }
+
+    .textboss{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .text2{
+        text-align: left;
+        margin-top: 70px;
+        margin-left: 120px;
+        width: 400px;
+    }
+
+    .grid2{
+        margin-top: 100px;
+    }
+
+    .text1{
+        margin-left: 40px;
+        text-align: left;
+    }
+
+   header{
+    width: 768px;
+    margin-top: 30px;
+   }
+
+   .insidebox1{
+    display: flex;
+    flex-direction: row;
+   }
+
+   .greyText{
+    width: 339px;
+   }
+
+   .image1{
+    margin-left: 130px ;
+    border-radius: 3%;
+   }
+
+   .photo2{
+     overflow: visible;
+     margin-left: 100px;
+     width: 300px;
+     height: 230px;
+
+   }
+
+   .klaviatura3{
+    width: 250px;
+
+    
+   }
+
+   .grid1{
+    text-align: left;
+    margin-left: 30px;
+   }
+
+   .grid1text{
+    text-align: left;
+    margin-left: 30px;
+   }
+
+   .grid1p{
+    text-align: left;
+    margin-left: 30px;
+    width: 281px;
+   }
+   .grid2{
+    text-align: left;
+    margin-left: -10px;
+   }
+
+   .grid2text{
+    text-align: left;
+    margin-left: -10px;
+   }
+
+   .grids2p{
+    text-align: left;
+    margin-left: -10px;
+    width: 281px;
+   }
+
+   .grid3{
+    text-align: left;
+    margin-left: 30px;
+   }
+
+   .grid3text{
+    text-align: left;
+    margin-left: 30px;
+   }
+
+   .grids3p{
+    text-align: left;
+    margin-left: 30px;
+    width: 281px;
+   }
+   .grid4{
+    text-align: left;
+    margin-left: -10px;
+   }
+
+   .grid4text{
+    text-align: left;
+    margin-left: -10px;
+   }
+
+   .grids4p{
+    text-align: left;
+    margin-left: -10px;
+    width: 281px;
+   }
+}
+
+@media (width > 1440px){
+    .container{
+        width: 1440px;
+        border: 2px solid black
+        
+
+    }
+
+    .greybox1{
+        display: flex;
+    }
+
+    .mshobeli{
+        gap: 40px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 90px;
+    }
+
+    .imagetext2{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .greybox2{
+        display: flex;
+    }
+
+    .textboss{
+        display: grid;
+    }
+
+    header{
+        width: 1440px;
+    }
+
+    .topText{
+        line-height: 56px;
+        font-size: 56px;
+        width: 445px;
+    }
+
+    .greyText{
+        width: 445px;
+        line-height: 26px;
+        font-size: 18px;
+    }
+
+    .insidebox{
+        margin-left: 130px;
+    }
+
+    .orangebox{
+        margin-left: -30px;
+        margin-bottom: 100px;
+    }
+
+    .orangekey{
+        width: 170px;
+        height: 350px;
+        margin-top: -60px;
+    }
+
+    .klaviatura3{
+        margin-top: -60px;
+        height: 370px;
+        margin-left: -150px;
+        width: 400px;
+       
+    }
+
+    .image1{
+        height: 400px;
+        margin-top: 20px;
+       
+    }
+
+    .insidebox2{
+        gap: 50px;
+    }
+
+    .text1{
+        width: 255px;
+        margin-left: 120px;
+        margin-top: 20px;
+    }
+
+    .text2{
+        width: 255px;
+    }
+
+    
+    .gridsfather{
+        padding-left: 120px;
+        padding-right: 120px;
+        grid-template-columns:auto auto auto auto;
+    }
+
+    .grid1text{
+        width: 255px;
+    }
+    .grid1p{
+        width: 255px;
+    }
+    .grid2text{
+        width: 255px;
+    }
+    .grids2p{
+        width: 255px;
+    }
+
+    .grid3{
+        margin-top: 100px;
+    }
+    
+    .grid3text{
+        width: 255px;
+    }
+    .grids3p{
+        width: 255px;
+    }
+
+    .grid4{
+        margin-top: 100px;
+    }
+    .grid4text{
+        width: 255px;
+    }
+    .grids4p{
+        width: 255px;
+    }
+
+    .photo2{
+        animation: move infinite 15s linear;
+
+    }
+    @keyframes move {
+        0%{
+            transform: translateX(0);
+        }
+
+        50%{
+            transform: translateX(-100px);
+        }
+        100%{
+            transform: translateX(0);
+        }
+    }
+
+    .headbox2:hover{
+        background-color: aqua;
+        transition: 2s;
+    }
+
+    .orangebox:hover{
+        background-color: var(--lorange);
+        transition: 2s;
+    }
+
+    
+
+
+
+
+    
+
+        
+    
+
+    
+
+    
+
+   
+}
+
+
